@@ -5,4 +5,4 @@ FROM dotcypress/mtproxy
 EXPOSE 1984
 
 # Запуск прокси с секретным ключом
-CMD ["mtproxy", "-s", "f2083bb79871d126a175a70b3cf2020b"]
+CMD ["mtproxy", "--seed", "f2083bb79871d126a175a70b3cf2020b"]
